@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="icon" href="img/discz_logo.png" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:400,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script type="text/javascript" src="app.js"></script>
+  </head>
+
+  <body>
+    <div class="side-nav">
+      <div class="main-nav">
+        <div class="logo-wrapper">
+          <img src="img/discz_logo.png" />
+        </div>
+        <div class="menu-icon-wrapper">
+          <img class="menu-icon" src="img/menu.png" onclick="expandMenu()" />
+          <img class="exit-icon" src="img/close.png" onclick="collapseMenu()" />
+        </div>
+      </div>
+
+      <a href="#Background" onclick="expandMenu()">Background</a>
+      <a href="#Sketches" onclick="expandMenu()">Sketches</a>
+      <a href="#Wireframes" onclick="expandMenu()">Wireframes</a>
+      <a href="#Critique" onclick="expandMenu()">Critique</a>
+      <a href="#Hi-Fi-Mockup" onclick="expandMenu()">Hi-Fi Mockup</a>
+      <a href="#User-Testing" onclick="expandMenu()">User Testing</a>
+    </div>
+    <div class="main">
+      <div id="Background" class="section">
+        <h1>Background</h1>
+        <div class="section-content">
+          <img src="img/discz_screen.png" />
+          <p>
+            For our Iterative Design project, we choose <b>Discz</b> from
+            <b>Y combinator</b>. The core conecpt behind Discz is that it is a
+            Spotify-integrated music discovery platform built to help you find
+            your next favorite artists and songs. It's main functionality is the
+            ability to build playlists at the swipe of a finger and find new
+            music via custom recommendations catered to your taste! You can
+            swipe through song snippets to find music you love and add it to
+            your spotify playlists.
+          </p>
+          <div id="button-wrapper">
+            <a href="https://disczmusic.com/" target="_blank">
+              <div class="page-button">
+                <h3>Discz home page</h3>
+              </div>
+            </a>
+            <a
+              href="https://www.figma.com/proto/MHnH6ab4yutVx0YXSZ5fOs/DISCZ-Redesign?node-id=56%3A51&viewport=980%2C2219%2C2.38&scaling=scale-down&starting-point-node-id=56%3A470"
+              target="_blank"
+            >
+              <div class="page-button">
+                <h3>Hi-Fi figma design</h3>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div id="Sketches" class="section">
+        <h1>Sketches</h1>
+        <div class="section-content">
+          <h3>Sketch Idea 1</h3>
+          <div class="design-imgs">
+            <img src="img/Lemur Page 1 Swipe.png" />
+            <img src="img/Lemur Page 2 Liked.png" />
+            <img src="img/Lemur Page 3 Home.png" />
+          </div>
+        </div>
+        <div class="section-content">
+          <h3>Sketch Idea 2</h3>
+          <div class="design-imgs">
+            <img src="img/axolotl_page_1.png" />
+            <img src="img/axolotl_page_2.png" />
+            <img src="img/axolotl_page_3.png" />
+            <img src="img/axolotl_page_4.png" />
+          </div>
+        </div>
+        <div class="section-content">
+          <h3>Sketch Idea 3</h3>
+          <div class="design-imgs">
+            <img src="img/cat-1.png" />
+            <img src="img/cat-2.png" />
+            <img src="img/cat-3.png" />
+            <img src="img/cat-4.png" />
+            <img src="img/cat-5.png" />
+            <img src="img/cat-6.png" />
+          </div>
+        </div>
+        <div class="section-content">
+          <h3>Sketch Idea 4</h3>
+          <div class="design-imgs">
+            <img src="img/sloth-discover-1.png" />
+            <img src="img/sloth-discover-2.png" />
+            <img src="img/sloth-discover-3.png" />
+            <img src="img/sloth-playlists-1.png" />
+            <img src="img/sloth-playlists-2.png" />
+            <img src="img/sloth-profile-1.png" />
+          </div>
+        </div>
+      </div>
+      <div id="Wireframes" class="section">
+        <h1>Final Wireframes</h1>
+        <!-- <p>Wireframes for our final design</p> -->
+        <div class="section-content">
+          <h3>Discover</h3>
+          <div class="design-imgs">
+            <img src="img/final-discover-1.png" />
+            <img src="img/final-discover-2.png" />
+            <img src="img/final-discover-3.png" />
+            <img src="img/final-discover-4.png" />
+          </div>
+        </div>
+        <div class="section-content">
+          <h3>Playlist</h3>
+          <div class="design-imgs">
+            <img src="img/final-playlist-1.png" />
+            <img src="img/final-playlist-2.png" />
+          </div>
+        </div>
+        <div class="section-content">
+          <h3>Profile</h3>
+          <div class="design-imgs">
+            <img src="img/final-profile-1.png" />
+          </div>
+        </div>
+      </div>
+      <div id="Critique" class="section">
+        <h1>Critiques</h1>
+        <!-- <div id="Critique-lists"> -->
+        <div class="section-content">
+          <h3>Pros</h3>
+          <ul>
+            <li>I like the overall layout and heirarchy.</li>
+            <li>
+              The navigation bar works well and shows which page you are on.
+            </li>
+            <li>I like the transition between pages.</li>
+            <li>
+              I like that you can see the album behind it, which shows that you
+              should swipe in some direction to see the next album.
+            </li>
+          </ul>
+        </div>
+
+        <div class="section-content">
+          <h3>Cons</h3>
+          <ul>
+            <li>
+              The text is kind of small (describing the genres), but the big
+              pictures are good.
+            </li>
+            <li>Discover and the playlists screens are too similar.</li>
+            <li>
+              Not sure what the "Create" button is supposed to do. It should go
+              to a Create page.
+            </li>
+            <li>
+              Recommendations and recent listening are within the settings
+              option of the app, which is a bit unintuitive. I thought the
+              recommendations were all the songs you haven't listened to.
+            </li>
+            <li>
+              The plus and minus buttons in the settings under My
+              Recommendations are confusing.
+            </li>
+            <li>
+              I was confused about the "Skipping" function in the Discover page.
+              Does skipping count as liking or disliking?
+            </li>
+            <li>
+              I'm confused about the cancel button in the player screen (the X).
+            </li>
+          </ul>
+
+          </div>
+        </div>
+        <div id="Hi-Fi-Mockup" class="section">
+          <h1>Hi-Fi-Mockup</h1>
+          <div class="section-content">
+            <img src="img/hifi.png" />
+            <div id="button-wrapper">
+              <a href="https://disczmusic.com/" target="_blank">
+                <div class="page-button">
+                  <h3>Discz home page</h3>
+                </div>
+              </a>
+              <a
+                href="https://www.figma.com/proto/MHnH6ab4yutVx0YXSZ5fOs/DISCZ-Redesign?node-id=56%3A51&viewport=980%2C2219%2C2.38&scaling=scale-down&starting-point-node-id=56%3A470"
+                target="_blank"
+              >
+                <div class="page-button">
+                  <h3>Hi-Fi figma design</h3>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div id="User-Testing" class="section">
+          <h1>User-Testing</h1>
+          <div class="section-content">
+            <h3>Review 1</h3>
+            <iframe
+              src="https://drive.google.com/file/d/1lKllLuQZXObC-eSLrvDm8b30vTeetdC3/preview"
+              width="400"
+              height="300"
+              allow="autoplay"
+            ></iframe>
+            <h3>Review 2</h3>
+            <iframe
+              src="https://drive.google.com/file/d/1De6Q1p8tscZYWNRqvwBscpRSNBfyUFj2/preview"
+              width="400"
+              height="300"
+              allow="autoplay"
+            ></iframe>
+            <h3>Review 3</h3>
+            <iframe
+              src="https://drive.google.com/file/d/1lGNi7TYHgvwoaayJ_Sje9L2XeN_KaEQW/preview"
+              width="400"
+              height="300"
+              allow="autoplay"
+            ></iframe>
+            <h3>Review 4</h3>
+            <iframe
+              src="https://drive.google.com/file/d/1l9eEk6sYE9EgYvd43eW9JTJM-PMUnyUk/preview"
+              width="400"
+              height="300"
+              allow="autoplay"
+            ></iframe>
+            <h3>Scenario</h3>
+            <p>
+              Imagine you are a music listener and want to discover more songs
+              similar to your taste. This app allows you to explore and discover
+              new music with a tinder-style swiping action. This is not an
+              actual app but an interactive mockup made on prototyping software.
+            </p>
+            <h3>Testing Instructions</h3>
+            <ol>
+              <li>
+                Select a radio in the Discover page and swipe through songs. The
+                only radio that is currently interactable is the K-pop radio.
+              </li>
+              <li>Create a new radio and add a minimum of two songs.</li>
+              <li>View the first playlist on the Library page.</li>
+              <li>View your profile and view the edit profile page.</li>
+            </ol>
+            <h3>Post-Test Questions</h3>
+            <ol>
+              <li>How intuitive was the "Library" page?</li>
+              <li>How intuitive was the "Discover" page?</li>
+              <li>How intuitive was the "Profile" page?</li>
+              <li>
+                Please share any overall thoughts or improvements you would like
+                to see on this app. Any and all thoughts are welcome!
+              </li>
+            </ol>
+            <h3>Testing Summary</h3>
+            <ul>
+              <li>Testers able to use the swipping action after some trial and error</li>
+              <li>Testers challenged by the "Create Radio" task, unclear where the button to
+                create radio is located. Need to clarify this task to make it less challenging. 
+              </li>
+              <li>Testers knew to add two songs to the first two highlighted discs on screen.</li>
+              <li>One tester noted being able to see more songs in the Recommended & Recently Listened sections on the Profile page.</li>
+              <li>Testers noticed similarity to Tinder</li>
+              <li>Overall gave 4.5 average intutive scores for Library, Discover, and Profile page.</li>
+              <li>Clear to use buttons, not information overload for the user </li>
+            </ul>
+            <h3>Potential Changes</h3>
+            <ul>
+              <li>
+                Standardize the terminology for creating a Radio on our Discover
+                Page
+              </li>
+              <li>
+                Make the swipping action more seamless as user was unsure how to
+                swipe at first
+              </li>
+              <li>
+                Have the ability to edit and change the Recommendations and
+                Recently Listened on the Profile Page
+              </li>
+              <li>Consider adding a thumbs up button similar to Pandora. </li>
+              <li>Allow users to add three mandatory songs, not only two songs. </li>
+              <li>Add the word "My" to Library page (ie. "My Library")</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
